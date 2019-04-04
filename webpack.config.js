@@ -71,6 +71,9 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom'
+    },
     extensions: ['.js', '.jsx', '.json']
   }
 }
