@@ -1,15 +1,15 @@
 {
-    "presets": ["@babel/preset-react"],
-    "plugins": [
-        [
-            "import",
-            {
-                "libraryName": "antd",
-                "libraryDirectory": "es",
-                "style": true
-            }
-        ],
-        "@babel/plugin-proposal-class-properties",
-        "react-hot-loader/babel"
-    ]
+  "presets": ["@babel/preset-react"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "react-hot-loader/babel"
+  ]
 }
